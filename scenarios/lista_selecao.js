@@ -16,14 +16,14 @@ export let options = {
   },
 };
 
-const baseURL = 'http://api.sgf.qa.inovvati.com.br/graphql/';
+const baseURL = '';
 
 const queries = [
   
   { 
     operationName:"selecaoById",
     "variables":{
-        "id":"U2VsZWNhbwppMg=="
+        "id":""
     },
       query:`query selecaoById($id: ID!) {
                  selecaoById(id: $id) {
